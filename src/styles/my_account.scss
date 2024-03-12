@@ -1,0 +1,9 @@
+.solved-card {
+  width: 200px;
+  font-size: x-large;
+  font-weight: bolder;
+  @media (max-width: 700px) {
+    width: 100px;
+    font-size: medium;
+  }
+}

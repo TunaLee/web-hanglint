@@ -1,0 +1,43 @@
+.card{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  @media (max-width: 700px) {
+    max-width: 300px;
+  }
+  .test{
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    @media (max-width: 700px) {
+      font-size: 25px
+    }
+  }
+  .title{
+    float: left;
+    font-size: 25px;
+    margin: 25px;
+    @media (max-width: 700px) {
+      font-size: 12px;
+      margin: 12px
+    }
+  }
+  .image{
+    width: 500px;
+    @media (max-width: 700px) {
+      width: 300px;
+    }
+  }
+  .custom-button {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .question {
+    display: flex;
+    flex-direction: column;
+  }
+}
